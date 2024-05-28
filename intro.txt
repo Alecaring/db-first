@@ -1,0 +1,22 @@
+
+
+
+
+______________________________
+
+AUTO USATE 
+______________________________
+
+
+IDAuto                      =>      - INT AUTO_INCREMENT PRIMARY KEY
+Marca                       =>      - VARCHAR(50) NOT NULL
+Modello                     =>      - VARCHAR(50) NOT NULL
+Anno                        =>      - YEAR NOT NULL
+Chilometri_Attuali          =>      - INT  NOT NULL
+Colore                      =>      - VARCHAR(30)
+Prezzo                      =>      - DECIMAL(10, 2) NOT NULL
+Stato                       =>      - VARCHAR(50) NOT NULL
+Numero_Telaio               =>      - VARCHAR(50) NOT NULL UNIQUE
+Immatricolazione            =>      - DATE NOT NULL
+Descrizione                 =>      - TEXT
+IDConcessionario            =>      - INT
